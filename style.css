@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&family=Roboto:wght@500&display=swap');
+
+
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+
+
+* {
+    /*engloba todas as tags */
+    margin: 0;
+    /*margem */
+    padding: 0;
+    /*preenchimento*/
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+/* Primeira Parte */
+
+.logo {
+    margin-top: -9px;
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+
+
+.primeirobotao {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 25px;
+    background-image: linear-gradient(#38C86B, #29BBC3);
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.primeirobotao:hover {
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+.primeiraparte {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #9698A6;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+
+
+
+
+
+}
+
+nav a {
+    background-image: linear-gradient(to right, #39c967 0%, #28bac7 100%);
+    padding: 1px;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+
+.primeiraparte a:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+    color: black;
+
+}
+
+
+.cabecalho0 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.cabecalho1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 17px;
+    text-align: center;
+    gap: 270px;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    min-height: 80px;
+    
+    
+
+
+
+
+}
+
+
+/*PRINCIPAL */
+
+.container {
+    margin-bottom: 776px;
+}
+
+.principal {
+    position: absolute;
+    top: 300px;
+    margin-top: 13px;
+    margin-left: -30px;
+    
+
+
+}
+
+.font {
+    margin-top: -35px;
+    font-size: 60px;
+    font-family: 'Public Sans', sans-serif;
+    color: hsl(233, 26%, 24%);
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.segundo {
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    letter-spacing: 0px;
+
+
+}
+
+.segundobotao1 {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 25px;
+    background-image: linear-gradient(#38C86B, #29BBC3);
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 30px;
+    font-weight: 600;
+
+
+}
+
+.segundobotao1:hover {
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+
+.img-1 {
+    position: absolute;
+    top: -150px;
+    left: 880px;
+}
+
+
+.img-2 {
+    position: absolute;
+    left: 1030px;
+    top: -7px;
+}
+
+/* Segunda Parte */
+
+.tamanho {
+    
+    justify-content: center;
+    margin-left: 285px;
+    margin-bottom: 285px;
+}
+
+.um {
+    /*margin-top: 777px;*/
+    font-family: 'Public Sans', sans-serif;
+    color: #2D314D;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.dois {
+    margin-top: 30px;
+    color: hsl(233, 8%, 62%);
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+/* ICONES */
+
+.logos {
+    
+    font-family: 'Public Sans', sans-serif;
+    
+    
+}
+
+
+.card-body {
+    margin-top: 35px;
+}
+
+
+.card-title {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    
+
+}
+
+
+.card-text {
+    margin-top: 30px;
+    font-size: 17px;
+    color: #9698A6;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.container2 {
+    display: flex;
+    margin-left: 10px;
+    
+    gap: 60px;
+    
+    margin-top: 50px;
+}
+ 
+
+.ultimotitulo {
+    font-size: 40px;
+    color: #2D314D;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+/*CARDS CSS ANIMADO */
+
+.conjunto {
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.card-group {
+    max-width: 330px;
+    max-height: 200px;
+  
+    
+    
+}
+
+.card-img-top {
+    width: 100%;
+    max-width: 330px;
+    max-height: 200px;
+    object-fit: cover;
+    
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+    
+}
+
+.card-body1 {
+    margin-left: 20px;
+}
+
+
+
+.l {
+    margin-top: 17px;
+    color: #9698A6;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card-title1 {
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+}
+
+.card-title1:hover {
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.card-text1 {
+    color: #9698A6;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}   
+
+
+/*FINAL */
+
+footer {
+    padding: 40px;
+    background: #2d314e;
+    display: flex;
+    
+    
+}
+
+.container-final {
+    display: flex;
+    
+    
+}
+
+
+.conteudo-rodape {
+    margin-left: 290px;
+    
+    display: flex;
+    
+    
+    
+   
+}
+
+.logo-rodape {
+    margin-top: -20px;
+    
+}
+
+
+.coluna-rodape {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-decoration: none;
+ 
+ 
+}
+
+.coluna-rodape ul li a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+.coluna-rodape ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 18px;
+    margin-left: -300px;
+    letter-spacing: 1px;
+    
+    
+}
+
+.coluna-rodape ul li {
+    list-style: none;
+    margin-left: 280px;
+   
+}
+
+
+.coluna-rodape svg path {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.redes-sociais {
+    display: flex;
+    margin-top: -55px;
+    gap: 19px;
+    margin-left: -20px;
+    
+    
+}
+
+.redes-sociais img {
+    cursor: pointer;
+}
+
+
+.redes-sociais img:hover {
+    cursor: pointer;
+    
+
+}
+
+.celula-botao {
+    margin-left: 190px;
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.primeirobotao3 {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px;
+    background-image: linear-gradient(#38C86B, #29BBC3);
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeirobotao3:hover {
+    color: #fff;
+    opacity: 0.7;
+}
+
